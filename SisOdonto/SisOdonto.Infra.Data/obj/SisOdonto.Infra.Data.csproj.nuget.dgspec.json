@@ -1,0 +1,342 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.Data\\SisOdonto.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Domain\\SisOdonto.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Domain\\SisOdonto.Domain.csproj",
+        "projectName": "SisOdonto.Domain",
+        "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Domain\\SisOdonto.Domain.csproj",
+        "packagesPath": "C:\\Users\\Bigwelly76Gaming\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bigwelly76Gaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.Extension\\SisOdonto.Infra.CrossCutting.Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.Extension\\SisOdonto.Infra.CrossCutting.Extension.csproj",
+        "projectName": "SisOdonto.Infra.CrossCutting.Extension",
+        "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.Extension\\SisOdonto.Infra.CrossCutting.Extension.csproj",
+        "packagesPath": "C:\\Users\\Bigwelly76Gaming\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bigwelly76Gaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.SysMessage\\SisOdonto.Infra.CrossCutting.SysMessage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.SysMessage\\SisOdonto.Infra.CrossCutting.SysMessage.csproj",
+        "projectName": "SisOdonto.Infra.CrossCutting.SysMessage",
+        "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.SysMessage\\SisOdonto.Infra.CrossCutting.SysMessage.csproj",
+        "packagesPath": "C:\\Users\\Bigwelly76Gaming\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.SysMessage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bigwelly76Gaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.Data\\SisOdonto.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.Data\\SisOdonto.Infra.Data.csproj",
+        "projectName": "SisOdonto.Infra.Data",
+        "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.Data\\SisOdonto.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Bigwelly76Gaming\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bigwelly76Gaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Domain\\SisOdonto.Domain.csproj": {
+                "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Domain\\SisOdonto.Domain.csproj"
+              },
+              "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.Extension\\SisOdonto.Infra.CrossCutting.Extension.csproj": {
+                "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.Extension\\SisOdonto.Infra.CrossCutting.Extension.csproj"
+              },
+              "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.SysMessage\\SisOdonto.Infra.CrossCutting.SysMessage.csproj": {
+                "projectPath": "E:\\Users\\Bigwelly76Gaming\\Source\\Repos\\GitHub\\ProjetosTestes\\SisOdonto\\SisOdonto.Infra.CrossCutting.SysMessage\\SisOdonto.Infra.CrossCutting.SysMessage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.DataProtection": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.25.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

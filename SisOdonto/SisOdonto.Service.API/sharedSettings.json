@@ -1,0 +1,12 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=DESKTOP-CCIRNE;Initial Catalog=SisOdonto;Persist Security Info=True;User ID=ccirne;Password=@Apcp1965"
+  }
+}

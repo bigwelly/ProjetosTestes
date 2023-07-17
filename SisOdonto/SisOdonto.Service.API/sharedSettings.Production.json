@@ -1,0 +1,18 @@
+{
+  "Environment": "Production",
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=DESKTOP-CCIRNE;Initial Catalog=SisOdonto;Persist Security Info=True;User ID=ccirne;Password=@Apcp1965"
+  },
+  "Logging": {
+    "LogMail": {
+      "FromMail": "closing2-log-noreply@imusica.com.br",
+      "ToMail": "backoffice-reports-billing@imusica.com.br",
+      "MailServer": "smtp.dc.imusicacorp.com",
+      "MailSubject": "Log Catched on Closing Manager App Service (Notifier) - PRD"
+    },
+    "MinimumLogLevel": 4
+  },
+  "CORS": {
+    "ValidHost": "https://imusica.com.br"
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SisOdonto.Service.API.props" />
+</Project>

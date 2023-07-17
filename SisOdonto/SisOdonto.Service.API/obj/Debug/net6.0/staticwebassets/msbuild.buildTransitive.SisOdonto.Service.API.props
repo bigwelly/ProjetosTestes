@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SisOdonto.Service.API.props" />
+</Project>

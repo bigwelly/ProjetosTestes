@@ -1,0 +1,77 @@
+{
+  "Environment": "Homologation",
+  "ClosingConnection": {
+    "connectionString": "Server=ADVDMSSQL02.dc.imusicacorp.com; Database = iMusicaClosingDEV; User ID = iMusicaClose; Password = 123456; Connect Timeout = 3600; pooling = 'true'; Max Pool Size = 1000; Application Name = iMusicaClosing;Encrypt=False"
+  },
+  "PortalConnection": {
+    "connectionString": "mysqlslaves.cluster.int.imusicacorp.com;database=imusica;User id=imusicaclosing;password=imusicaclosing@123;port=3306"
+  },
+  "AuroraConnection": {
+    "connectionString": "host=statement.cluster-ro-cqfkstwr7e2q.us-east-1.rds.amazonaws.com;database=statement;User id=closing-ro;password=ycSwRAsGJvI6;port=3306"
+  },
+  "ContestoneMasConnection": {
+    "connectionString": "mongodb://closing.import:YF^TdPlbe#iK@mongoplataforma03.int.imusicacorp.com:27017,mongoplataforma01.int.imusicacorp.com:27017,mongoplataforma02.int.imusicacorp.com:27017",
+    "databaseName": "rbt"
+  },
+  "AWS": { // Add Amazon keys
+    "Region": "us-east-1",
+    "AccessKey": "AKIAIWGSR4N4VJKLR62A",
+    "SecretKey": "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",
+    "BucketName": "imusica-closing-reports-hmg",
+    "ReportFolder": "Reports",
+    "InvoiceFolder": "Invoices"
+  },
+  "Logging": {
+    "LogMail": {
+      "FromMail": "closing2-log-noreply@imusica.com.br",
+      "ToMail": "backoffice-reports-billing@imusica.com.br",
+      "MailServer": "smtp.dc.imusicacorp.com",
+      "MailSubject": "Log Catched on Closing Manager App Service (Notifier) - HMG"
+    },
+    "MinimumLogLevel": 4
+  },
+  "QuartzInterval": {
+    "JobCheckIfExistsTransactionsToImport": "0 0 2 ? * MON *", // execu��o ser� realizada toda segunda-feira, �s 02:00:00 horas 
+    "JobIdentifyPendingImports": "0 50 6 1/1 * ? *", // execu��o ser� realizada todos os dias, �s 06:50:00 horas 
+    "JobIdentifyPhonogramWithoutSnapshotValidation": "0 0 15 1/1 * ? *", // execu��o ser� realizada todos os dias, �s 15:00:00 horas
+    "JobIdentifySnapshotIncomplete": "0 0 20 1/1 * ? *", // execu��o ser� realizada todos os dias, �s 20:00:00 horas
+    "JobPriceDivergenceValidation": "0 0 3 ? * MON *", // execu��o ser� realizada toda segunda-feira, �s 03:00:00 horas
+    "JobCalculateClosingStatusService": "0 0/5 * 1/1 * ? *", // execu��o ser� realizada a cada 5 minutos 
+    "JobCheckUpdateIrpBillingAccountValidation": "0 0 0/6 1/1 * ? *" // execu��o ser� realizada a cada 6 horas
+  },
+  "CORS": {
+    "ValidHost": "http://hmg.closingmanager.int.imusicacorp.com/"
+  },
+  "StorageFileImport": {
+    "StorageServer": "//STORAGE//FileImport",
+    "StorageServerExport": "//STORAGE//FileImport//RoyaltiesReports//",
+    "StorageFolder": "Fechamento.Hmg",
+    "NetworkPathToRecordedInTable": "\\\\ADVPFNSRV01.dc.imusicacorp.com\\M$\\Software\\Fechamento\\FileImport"
+  },
+  "StorageFileExport": {
+    "StorageServer": "//STORAGE//reports"
+  },
+  "rabbit": {
+    "UserName": "iMusicaClosingApp",
+    "Password": "iMusicaClosingApp@123",
+    "HostName": "rabbit-bo-dev.int.imusicacorp.com",
+    "VHost": "iMusica.Closing.Hmg",
+    "Port": 5672
+  },
+  "EmailSender": {
+    "RecipientName": "BackOffice-ReportsBilling",
+    "RecipientAddress": "backoffice-reports-billing@imusica.com.br",
+    "SenderName": "ClosingManager-NoReply",
+    "SenderAddress": "closingmanager-noreply@imusica.com.br",
+    "Host": "smtp.dc.imusicacorp.com",
+    "Port": 25
+  },
+  "RabbitQueueSettings": {
+    "QueueDetails": [
+      {
+        "Key": "Plan.ApprovedVersion",
+        "Exchange": "iMusicaClosing.Exchange"
+      }
+    ]
+  }
+}
